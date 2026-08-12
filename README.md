@@ -1,48 +1,40 @@
 # Alex Ponce-Flores
 
-Bioinformatics Analyst & Scientific Software Engineer specializing in reproducible genomics pipelines, viral low-frequency variant analysis, transcriptomics, HPC orchestration, and scientific instrument software.
+Bioinformatics Analyst and scientific software engineer. I build reproducible genomics pipelines, viral variant-analysis workflows, HPC orchestration layers, and instrument software.
 
----
+Researcher I, Bioinformatics at the UTHSC Regional Biocontainment Laboratory (BSL-3). M.S. Bioinformatics, Brandeis University (2024); B.S. Biology, University of Memphis (2021).
 
-## 🔬 Core Technical Focus
+## Technical focus
 
-- **Bioinformatics & Viral Genomics:** Nextflow DSL2 / nf-core workflows, bulk and single-cell RNA-seq (DESeq2, Seurat, WGCNA), intra-host viral variant calling (LoFreq, iVar), and evolutionary selection analysis (SNPGenie).
-- **HPC & SLURM Orchestration:** SLURM job array management, containerization (Singularity/Apptainer, Docker), automated input validation, and execution monitoring.
-- **Scientific Software & Instrumentation:** Python scientific software development, signal processing, automated spectral acquisition, hardware integration, and interactive R/Shiny analytics.
+- **Viral genomics and bioinformatics** — Nextflow DSL2 and nf-core workflows, intra-host variant calling (LoFreq, iVar), quasispecies haplotype reconstruction, evolutionary selection analysis (SNPGenie), bulk RNA-seq (DESeq2).
+- **HPC and SLURM orchestration** — job array management, containerization (Singularity/Apptainer, Docker), automated input validation, execution monitoring.
+- **Scientific software and instrumentation** — Python scientific software, signal processing, spectral acquisition, hardware integration, interactive R/Shiny analytics.
 
----
+## Featured repositories
 
-## 🛠️ Featured Portfolio Repositories
+**[viral-intrahost-variant-workflow](https://github.com/aleponce4/viral-intrahost-variant-workflow)** — Containerized Nextflow DSL2 pipeline for viral intra-host variant calling (iSNV), quasispecies haplotype reconstruction, and evolutionary selection analysis. Tested on synthetic fixtures with an end-to-end Nextflow test suite.
 
-### Primary Featured Repositories
+**[libs-spectroscopy-workbench](https://github.com/aleponce4/libs-spectroscopy-workbench)** — Python workbench for LIBS spectral processing: baseline correction, elemental line identification against a NIST-derived line database, and simulated acquisition.
 
-1. **[viral-intrahost-variant-workflow](https://github.com/aleponce4/viral-intrahost-variant-workflow)**  
-   Containerized Nextflow DSL2 pipeline for viral intra-host variant calling (iSNV), quasispecies haplotype reconstruction, and evolutionary selection analysis. Tested on synthetic fixtures and validated operationally on Alphavirus HPC study datasets.
+**[tiling-amplicon-primer-design](https://github.com/aleponce4/tiling-amplicon-primer-design)** — Python package for designing tiled amplicon primer schemes for NGS of small viral genomes, with automated window planning, primer QC, and pooling assignment.
 
-2. **[rnaseq-nfcore-wrapper-alphavirus](https://github.com/aleponce4/rnaseq-nfcore-wrapper-alphavirus)**  
-   SLURM execution wrapper and preflight validation layer for `nf-core/rnaseq` operational HPC workloads across viral transcriptomics studies.
+**[preclinical-study-analysis-shiny](https://github.com/aleponce4/preclinical-study-analysis-shiny)** — Modular R/Shiny application for longitudinal animal study data: weight trajectory tracking, Kaplan-Meier survival analysis, and report export.
 
-3. **[tiling-amplicon-primer-design](https://github.com/aleponce4/tiling-amplicon-primer-design)**  
-   Modular Python package for designing tiled amplicon primers for NGS of viral genomes, complete with automated window planning, quality control checks, and coverage pooling.
+## Supporting repositories
 
-4. **[preclinical-study-analysis-shiny](https://github.com/aleponce4/preclinical-study-analysis-shiny)**  
-   Modular R/Shiny application for longitudinal animal study data visualization, weight trajectory tracking, survival analysis (Kaplan-Meier), and reporting export.
+**[lab-bioinfo-templates](https://github.com/aleponce4/lab-bioinfo-templates)** — Reusable virology and genomics analysis templates in R, Python, and Quarto, running on synthetic example data. Rendered gallery: **[aleponce4.github.io/lab-bioinfo-templates](https://aleponce4.github.io/lab-bioinfo-templates/)**
 
-### Supporting Repositories
+**[akodon-genome-assembly-workflow](https://github.com/aleponce4/akodon-genome-assembly-workflow)** — SLURM pipeline for *Akodon* genome assembly (10x Genomics Supernova) and BRAKER-based gene prediction on HPC.
 
-5. **[libs-spectroscopy-workbench](https://github.com/aleponce4/libs-spectroscopy-workbench)**  
-   Open-source Python workbench for LIBS spectral processing, baseline correction, elemental line identification, and simulated spectral acquisition. *(Public community edition)*
+**[rnaseq-nfcore-wrapper-alphavirus](https://github.com/aleponce4/rnaseq-nfcore-wrapper-alphavirus)** — SLURM execution wrapper and preflight validation layer for [nf-core/rnaseq](https://github.com/nf-core/rnaseq) in viral transcriptomics studies.
 
-6. **[akodon-genome-assembly-workflow](https://github.com/aleponce4/akodon-genome-assembly-workflow)**  
-   Native SLURM pipeline for *Akodon* genome assembly (10x Genomics Supernova) and BRAKER-based gene prediction on HPC.
+## Contact
 
-7. **[lab-bioinfo-templates](https://github.com/aleponce4/lab-bioinfo-templates)**  
-   Collection of reproducible bioinformatics templates for R, Python, and Quarto gallery reporting with synthetic test data generators.
+- Email: [aleponce92@gmail.com](mailto:aleponce92@gmail.com)
+- LinkedIn: [alejandroponceflores](https://linkedin.com/in/alejandroponceflores/)
 
----
+Open to bioinformatics and scientific software engineering roles.
 
-## 📄 License & Confidentiality Notice
+## Licensing
 
-- Public repositories under this profile are provided under open-source licenses (MIT/BSD/GPL).
-- Proprietary startup application software (`ProLIBSpector`), trained machine-learning model weights, vendor hardware SDK headers, and client datasets remain strictly private.
-- All computational workflow tests in public repositories utilize synthetic fixtures; no human PHI or unreleased institutional study reads are committed.
+Public repositories here are released under MIT, except `libs-spectroscopy-workbench`, which is GPLv3. Commercial instrument software, trained model weights, vendor hardware SDKs, and client datasets are maintained privately and are not part of this profile.
