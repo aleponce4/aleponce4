@@ -23,7 +23,7 @@ Currently a Researcher I at the University of Tennessee Health Science Center. M
 
 **[Tiling amplicon primer design](https://github.com/aleponce4/tiling-amplicon-primer-design)** — Python package for designing tiled amplicon primer schemes for NGS of small viral genomes, including primer QC and pooling assignment.
 
-**[Preclinical study analysis](https://github.com/aleponce4/preclinical-study-analysis-shiny)** — Modular R/Shiny application for longitudinal animal-study data, survival analysis, and report export.
+**[Lab results browser with local AI assistance](https://alejandro-ponce-portfolio.netlify.app/)** — R/Shiny research software connecting RNA-seq results, networks, and animal-study outcomes, with an optional local assistant. The portfolio includes selected de-identified screenshots, architecture, and a 20-question case evaluation. Code is private because it works with unpublished lab data; happy to walk through the architecture and implementation.
 
 ## More work
 
