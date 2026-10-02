@@ -1,42 +1,40 @@
 # Alex Ponce-Flores
 
-Bioinformatics and scientific computing professional working across biological data, reproducible workflows, scientific software, and research instrumentation.
+I work across bioinformatics, scientific software, and applied machine learning. I build Python and R workflows for genomics, image analysis, and automated instrument acquisition, with an emphasis on reproducibility, quality control, and quantitative validation.
 
-I turn complex research questions and experimental data into clear analyses, reusable workflows, and practical tools. My experience spans genomics and transcriptomics, quantitative data analysis, HPC, scientific applications, spectroscopy, and laboratory-facing software.
+[Portfolio](https://alejandro-ponce-portfolio.netlify.app/) · [LinkedIn](https://www.linkedin.com/in/alejandroponceflores/) · [ORCID](https://orcid.org/0000-0003-3247-246X)
 
-[Portfolio](https://alejandro-ponce-portfolio.netlify.app/) · [LinkedIn](https://www.linkedin.com/in/alejandroponceflores/) · [GitHub](https://github.com/aleponce4/)
-
-Currently a Researcher I at the University of Tennessee Health Science Center. M.S. Bioinformatics, Brandeis University (2024); B.S. Biology, University of Memphis (2021).
+Researcher I working in bioinformatics at the University of Tennessee Health Science Center, and Co-Founder / Scientific Data, Software & Applied ML Lead at Onteko.
 
 ## Areas of work
 
-- **Biological data and computation** — RNA-seq, single-cell analysis, viral genomics, and variant analysis.
-- **Reproducible workflows** — R, Python, Nextflow/nf-core, SLURM/HPC, containers, testing, and validation.
-- **Scientific software** — data-processing tools, interactive analysis, and scientific visualization.
-- **Instrumentation and applied analysis** — spectroscopy, signal processing, simulated acquisition, and hardware/software integration.
+- **Scientific software and automation** — instrument integration, automated acquisition, data processing, and interactive research tools.
+- **Bioinformatics and image analysis** — RNA-seq, viral genomics, microscopy segmentation, and quantitative evaluation.
+- **Reproducible data and applied ML** — Python/R pipelines, SLURM/HPC, statistical modeling, automated tests, and traceable results.
 
 ## Selected work
 
-**[Viral intra-host variant workflow](https://github.com/aleponce4/viral-intrahost-variant-workflow)** — Containerized Nextflow DSL2 pipeline for viral intra-host variant calling, quasispecies haplotype reconstruction, and evolutionary selection analysis. Tested on synthetic fixtures with an end-to-end Nextflow test suite.
+**[ProLIBSpector — public edition](https://github.com/aleponce4/libs-spectroscopy-workbench)** — Python software for automated LIBS spectroscopy acquisition, spectral processing, and spatial mapping, with simulated devices for reproducible examples. The public edition demonstrates selected parts of the system; ongoing development is maintained in a private implementation.
 
-**[LIBS spectroscopy workbench](https://github.com/aleponce4/libs-spectroscopy-workbench)** — Python workbench for spectral processing, baseline correction, elemental line identification, and simulated acquisition.
+**[Image segmentation and validation — Xenium microscopy](https://alejandro-ponce-portfolio.netlify.app/#projects)** — Evaluated pretrained Cellpose-SAM with tiled GPU inference and quantitative checks of RNA assignment. Retained the instrument segmentation when expanded masks increased off-type signal. Images, evaluation, and recorded GPU timings are shown in the portfolio.
 
-**[Tiling amplicon primer design](https://github.com/aleponce4/tiling-amplicon-primer-design)** — Python package for designing tiled amplicon primer schemes for NGS of small viral genomes, including primer QC and pooling assignment.
+**[Lab results browser with local AI assistance](https://alejandro-ponce-portfolio.netlify.app/#projects)** — R/Shiny software connecting RNA-seq results, gene networks, and animal-study outcomes, with an optional local assistant. The portfolio includes selected de-identified screenshots, architecture, and a 20-question case evaluation. Code is private because it works with unpublished lab data; happy to walk through the architecture and implementation.
 
-**[Lab results browser with local AI assistance](https://alejandro-ponce-portfolio.netlify.app/)** — R/Shiny research software connecting RNA-seq results, networks, and animal-study outcomes, with an optional local assistant. The portfolio includes selected de-identified screenshots, architecture, and a 20-question case evaluation. Code is private because it works with unpublished lab data; happy to walk through the architecture and implementation.
+**[Viral intrahost variant workflow](https://github.com/aleponce4/viral-intrahost-variant-workflow)** — Containerized Nextflow DSL2 workflow for viral variant calling, consensus generation, selection analysis, and haplotype reconstruction, with automated tests and documented local/HPC execution.
 
 ## More work
 
-- **[Lab bioinformatics templates](https://github.com/aleponce4/lab-bioinfo-templates)** — Reusable R, Python, and Quarto templates using synthetic example data. [Rendered gallery](https://aleponce4.github.io/lab-bioinfo-templates/)
-- **[Akodon genome assembly workflow](https://github.com/aleponce4/akodon-genome-assembly-workflow)** — SLURM pipeline for genome assembly and gene prediction on HPC.
-- **[Alphavirus RNA-seq wrapper](https://github.com/aleponce4/rnaseq-nfcore-wrapper-alphavirus)** — SLURM execution wrapper and preflight validation layer for nf-core/rnaseq.
+- [Tiling amplicon primer design](https://github.com/aleponce4/tiling-amplicon-primer-design) — Python CLI for primer design, QC, and multiplex pooling.
+- [Virology and genomics templates](https://github.com/aleponce4/lab-bioinfo-templates) — Reusable R/Python analyses with synthetic example data and a [Quarto gallery](https://aleponce4.github.io/lab-bioinfo-templates/).
+- [Akodon genome assembly](https://github.com/aleponce4/akodon-genome-assembly-workflow) — Assembly and annotation workflow on SLURM.
+- [Alphavirus RNA-seq wrapper](https://github.com/aleponce4/rnaseq-nfcore-wrapper-alphavirus) — Configuration and preflight checks for nf-core/rnaseq.
 
-## Contact
+## Background and contact
 
-- Email: [aleponce92@gmail.com](mailto:aleponce92@gmail.com)
+M.S. Bioinformatics, Brandeis University (2024) · B.S. Biology, University of Memphis (2021).
 
-Open to roles in bioinformatics, scientific computing, research software, scientific data analysis, and applied R&D.
+Open to roles in scientific software, bioinformatics, scientific data analysis, automation, and applied ML.
 
-## Licensing
+[aleponce92@gmail.com](mailto:aleponce92@gmail.com)
 
-Public repositories here are released under MIT, except `libs-spectroscopy-workbench`, which is GPLv3. Commercial instrument software, trained model weights, vendor hardware SDKs, and client datasets are maintained privately and are not part of this profile.
+See individual repositories for licensing.
